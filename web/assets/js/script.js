@@ -89,9 +89,15 @@ $('.show-nav').click( function (e) {
 	$(this).toggleClass('active');
 	
 	if($(this).hasClass('active')) {
-		$('#global-header, #main, #global-footer').animate({right:'80%'}, 250);
+		$('#global-header, #main, #global-footer').animate({left:'50%'}, 250);
+		$('#global-nav').animate({
+				left: '0'
+			}, 250);
 	} else {
-		$('#global-header, #main, #global-footer').animate({right:'0%'}, 250);
+		$('#global-nav').animate({
+				left: '-999em'
+			}, 500);
+		$('#global-header, #main, #global-footer').animate({left:'0%'}, 250);
 	}
 	
 	// $('#global-nav').toggle();

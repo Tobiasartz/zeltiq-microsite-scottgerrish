@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en"> <![endif]-->
 <!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en"> <![endif]-->
@@ -12,7 +12,7 @@
 	<meta name="HandheldFriendly" content="True">
 	<meta name="MobileOptimized" content="320">
 	<meta name="viewport" content="width=device-width">
-	<link rel="stylesheet" href="assets/css/style.css?v=2">
+	<link rel="stylesheet" href="assets/css/style.css?v=1">
 	<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
 	<!-- For progressively larger displays -->
 	<link rel="stylesheet" media="only screen and (min-width: 600px)" href="assets/css/600.css">
@@ -23,6 +23,9 @@
 	<!--[if lt IE 9]>
 		<link rel="stylesheet" href="assets/css/600.css">
 		<link rel="stylesheet" href="assets/css/960.css">
+	<![endif]-->
+	<!--[if gte IE 9]>
+		<style type="text/css"> .gradient { filter: none; } </style>
 	<![endif]-->
 	<script>
 	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -46,13 +49,6 @@
 
 <body <?php if(!empty($bodyClass)) echo 'class="'. $bodyClass .'"'; ?>>
 	<header id="global-header">
-		<div id="global-branding">
-			<div class="wrapper clearfix">
-				<a href="#" class="show-nav ir"></a>
-				<h1 class="logo-coolsculpting"><a href="/" class="ir">coolsculpting</a></h1>
-				<h2 class="logo-practice"><span class="ir">Skin Spectrum</span></h2>
-			</div>
-		</div>
 		<nav id="global-nav">
 			<ul class="wrapper clearfix">
 				<li id="nav-about"><a href="about.php">About<br/> Dr. Comstock</a></li>
@@ -62,6 +58,15 @@
 				<li id="nav-consultation"><a href="consultation.php">Schedule a<br/> Consultation</a></li>
 			</ul>
 		</nav>
+		<div id="global-branding">
+			<div class="wrapper clearfix">
+				<h1 class="logo-coolsculpting"><a href="/" class="ir">coolsculpting</a></h1>
+				<div class="btn btn-grey show-nav">
+					<a href="#">Menu</a>
+				</div>
+				<h2 class="logo-practice clearfix"><span class="ir">Gerrish &amp; Associates</span></h2>
+			</div>
+		</div>
 	</header>
 
 	<div id="main" role="main">
