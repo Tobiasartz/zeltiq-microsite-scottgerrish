@@ -26,7 +26,7 @@
 			<div class="hero-text">
 				<h2>Freeze Your Fat Away</h2>
 				<h3>Transform yourself with CoolSculpting.</h3>
-				<a href="consultation.php" class="btn btn-blue">Schedule a Consultation</a>
+				<div class="btn btn-grey"><a href="consultation.php">Schedule a Consultation</a></div>
 			</div>
 		</section>
 			
@@ -36,7 +36,7 @@
 
 				<div class="bagallery content-box">
 					<h2>Before and After</h2>
-					<a href="gallery.php" class="view-all">View All</a>
+					<a href="gallery.php" class="view-all">View More &rsaquo;</a>
 					<div class="bagallerywrap">
 						<div class="ba-slider">
 						    <img src="assets/images/beforeafter/bowes-before.jpg" alt="" />
