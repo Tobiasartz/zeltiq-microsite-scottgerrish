@@ -6,27 +6,27 @@
 
 			<div class="footer-content">
 				<div class="footer-address">
-					Skin Spectrum<br/>
-					6127 N La Cholla Blvd #101<br/>
-					Tucson, Arizona 85741<br/>
-					(520) 797-8885
+					112 Pleasant St SW<br/>
+					Vienna, VA 22180<br/>
+					(703) 255-5580
 				</div>
 
-				<a class="btn-directions" href="https://maps.google.com/maps?q=6127+N+La+Cholla+Blvd+%23101+Tucson,+Arizona+85741&hnear=6127+N+La+Cholla+Blvd+%23101,+Tucson,+Pima,+Arizona+85741&gl=us&t=m&z=16" target="_blank" class="btn btn-grey btn-sm">Get Directions</a>
+				<a class="btn-directions" href="#" target="_blank">Get Directions</a>
 
-				<ul class="social-icons clearfix">
-					<li><a href="#" class="ir icon icon-twitter" target="_blank">Twitter</a></li>
-					<li><a href="#" class="ir icon icon-facebook" target="_blank">Facebook</a></li>
-					<li><a href="#" class="ir icon icon-pinterest" target="_blank">Pinterest</a></li>
-					<li><a href="#" class="ir icon icon-gplus" target="_blank">Google+</a></li>
-				</ul>
+			</div>
+		</div>
+		<div class="wrapper clearfix">
+			<ul class="social-icons clearfix">
+				<li><a href="#" class="ir icon icon-twitter" target="_blank">Twitter</a></li>
+				<li><a href="#" class="ir icon icon-facebook" target="_blank">Facebook</a></li>
+				<li><a href="#" class="ir icon icon-pinterest" target="_blank">Pinterest</a></li>
+				<li><a href="#" class="ir icon icon-gplus" target="_blank">Google+</a></li>
+			</ul>
 
-				<div class="footer-copyright">
-					<a href="privacy.php">Privacy Policy</a><br/>
-					 Copyright &copy; 2013 ZELTIQ<br/>
-					All Rights Reserved<br/>
-					&nbsp;
-				</div>
+			<div class="footer-copyright">
+				<a href="privacy.php">Terms &amp; Conditions</a><br/>
+				 Copyright &copy; 2013 ZELTIQ<br/>
+				All Rights Reserved<br/>
 			</div>
 		</div>
 	</footer>

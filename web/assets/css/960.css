@@ -28,15 +28,9 @@
 
 	.logo-coolsculpting {
 		background: none;
-		border: none;
-		box-shadow: none;
-		padding: 0;
 		float: left;
-		margin-top: 35px;
 	}
 		.logo-coolsculpting .ir {
-			background-position: -9px -83px;
-			height: auto;
 		}
 	.logo-practice {
 		float: right;
@@ -53,16 +47,6 @@
 }
 
 #global-nav {
-	border: 1px solid #1c6cbd; /* stroke */
-    background-color: #fff; /* layer fill content */
-    -moz-box-shadow: 0 2px 1px rgba(0,0,0,.29); /* drop shadow */
-    -webkit-box-shadow: 0 2px 1px rgba(0,0,0,.29); /* drop shadow */
-    box-shadow: 0 2px 1px rgba(0,0,0,.29); /* drop shadow */
-   	background-color: #21a1db; 
-    background-image: -moz-linear-gradient(bottom, #1179bd 0%, #21a1db 100%); /* gradient overlay */
-    background-image: -o-linear-gradient(bottom, #1179bd 0%, #21a1db 100%); /* gradient overlay */
-    background-image: -webkit-linear-gradient(bottom, #1179bd 0%, #21a1db 100%); /* gradient overlay */
-    background-image: linear-gradient(bottom, #1179bd 0%, #21a1db 100%); /* gradient overlay */
 	display: block;
 	border-width: 1px 0;
 	height: 55px;
@@ -76,7 +60,6 @@
 }
 	#global-nav li {
 		float: left;
-		background: url(../images/nav-divider.png) no-repeat left center;
 		height: 55px;
 		padding: 0 0 0 12px;
 		font-size: 15px;

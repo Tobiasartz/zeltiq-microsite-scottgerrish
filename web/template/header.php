@@ -49,15 +49,6 @@
 
 <body <?php if(!empty($bodyClass)) echo 'class="'. $bodyClass .'"'; ?>>
 	<header id="global-header">
-		<nav id="global-nav">
-			<ul class="wrapper clearfix">
-				<li id="nav-about"><a href="about.php">About<br/> Dr. Comstock</a></li>
-				<li id="nav-how"><a href="howitworks.php">How CoolSculpting<br/> Works</a></li>
-				<li id="nav-gallery"><a href="gallery.php">Before and<br/> After Photos</a></li>
-				<li id="nav-patients"><a href="patients.php">Hear from<br/> Real Patients</a></li>
-				<li id="nav-consultation"><a href="consultation.php">Schedule a<br/> Consultation</a></li>
-			</ul>
-		</nav>
 		<div id="global-branding">
 			<div class="wrapper clearfix">
 				<h1 class="logo-coolsculpting"><a href="/" class="ir">coolsculpting</a></h1>
@@ -67,6 +58,15 @@
 				<h2 class="logo-practice clearfix"><span class="ir">Gerrish &amp; Associates</span></h2>
 			</div>
 		</div>
+		<nav id="global-nav">
+			<ul class="wrapper clearfix">
+				<li id="nav-about"><a href="about.php">About<br/> Dr. Gerrish</a></li>
+				<li id="nav-how"><a href="howitworks.php">How It<br/> Works</a></li>
+				<li id="nav-gallery"><a href="gallery.php">Before and<br/> After Photos</a></li>
+				<li id="nav-patients"><a href="patients.php">Hear from<br/> Real Patients</a></li>
+				<li id="nav-consultation"><a href="consultation.php">Schedule a<br/> Consultation</a></li>
+			</ul>
+		</nav>
 	</header>
 
 	<div id="main" role="main">
