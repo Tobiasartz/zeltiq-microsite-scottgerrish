@@ -29,7 +29,7 @@
 				<div class="btn btn-grey"><a href="consultation.php">Schedule a Consultation</a></div>
 			</div>
 		</section>
-			
+		<div class="badIdea">&nbsp;</div>	
 		<div class="wrapper clearfix">
 			
 			<div class="twothird alpha">
