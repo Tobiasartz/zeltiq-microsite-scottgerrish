@@ -5,11 +5,11 @@
 		<div class="wrapper clearfix">
 
 			<div class="footer-content">
-				<div class="footer-address">
-					112 Pleasant St SW<br/>
-					Vienna, VA 22180<br/>
-					(703) 255-5580
-				</div>
+				<ul class="footer-address">
+					<li>112 Pleasant St SW</li>
+					<li>Vienna, VA 22180</li>
+					<li>(703) 255-5580</li>
+				</ul>
 
 				<a class="btn-directions" href="#" target="_blank">Get Directions</a>
 

@@ -26,10 +26,10 @@
 			<div class="hero-text">
 				<h2>Sculpt Your Body</h2>
 				<h3>Transform yourself with CoolSculpting.</h3>
-				<div class="btn btn-grey"><a href="consultation.php">Schedule a Consultation</a></div>
+				<a class="btn btn-grey" href="consultation.php">Schedule a Consultation</a>
 			</div>
 		</section>
-		<div class="badIdea">&nbsp;</div>	
+		<div class="background">&nbsp;</div>	
 		<div class="wrapper clearfix">
 			
 			<div class="twothird alpha">
@@ -53,6 +53,10 @@
 					<img src="assets/images/gerrish.png" alt="" />
 					<p><span>Dr. Scott Gerrish</span> is the first practice in Virginia to offer Zeltiq™ CoolSculpting, a new, revolutionary, non-invasive method that eliminates unwanted fat bulges.</p>
 				</div>
+			</div>
+
+			<div class="onethird">
+
 				<div class="newsletter content-box clearfix">
 					<h2>Get the latest news from Dr. Gerrish &amp; CoolSculpting</h2>
 					<form id="newsletterForm" action="#" name="subscribeForm" method="post">
@@ -72,9 +76,6 @@
 						<button name="submit" type="submit" class="btn btn-blue">Sign Up</button>
 					</form>
 				</div>
-			</div>
-
-			<div class="onethird">
 
 				<aside class="promo content-box">
 					<h2>Keep your beach body all year long</h2>

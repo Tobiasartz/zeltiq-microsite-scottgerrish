@@ -1,7 +1,7 @@
 <?php 
 
 	$title 			= "CoolSculpting - Consultation";
-	$bodyClass		= "interior";
+	$bodyClass		= "interior consultation";
 	$description 	= "";
 
 	include('template/header.php');
