@@ -219,6 +219,13 @@
     position: relative;
     top: -80px;
 }
+	.interior #main {
+		background: #fff;
+	}
+	.interior #main:after {
+		position: relative;
+		top: 100px;
+	}
     .interior #main .wrapper {
         padding: 33px;
         width: 920px;
@@ -326,6 +333,7 @@
 
 .interior .twothird {
     width: 553px;
+    margin-right: 2em;
 }
 
 .interior .alpha {
