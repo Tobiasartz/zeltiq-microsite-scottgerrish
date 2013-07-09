@@ -214,7 +214,7 @@ hr {
         margin: 0;
         padding: 0;
         position: absolute;
-        top: 100px;
+        top: 73px;
         right: 0px;
         padding-right: 21px;
         float: right;
@@ -470,13 +470,13 @@ hr {
         padding-left: 10px;
     }
 
-.promo.content-box {
+.home .promo.content-box {
     padding-top: 40px;
 }
-    .promo.content-box h2 {
+    .home .promo.content-box h2 {
         margin-top: 40px;
     }
-    .promo:before, .promo:after {
+    .home .promo:before, .home .promo:after {
         background: gray;
         margin: 0 auto;
         display: block;
@@ -485,7 +485,7 @@ hr {
         content: "";
         width: 80%;
     }
-    .promo:after {
+    .home .promo:after {
         margin-top: 40px;
     }
 
@@ -715,9 +715,8 @@ form {}
     padding: 0 22px;
 }
 .interior #global-header {
-    height: 9em;
+    /*height: 9em;*/
 }
-
 .consultation {}
     .consultation .logo-coolsculpting {
         background: transparent;
@@ -748,6 +747,10 @@ form {}
     position: relative;
     left: -22px;
     margin-top: 45px;
+}
+
+.interior .content-box h2 {
+    margin-bottom: 11px;
 }
 
 /*==================================================================
@@ -1015,7 +1018,6 @@ html[xmlns] .slides {display: block;}
 .clearfix:before, .clearfix:after { content: ""; display: table; }
 .clearfix:after { clear: both; }
 .clearfix { zoom: 1; }
-
 /*==================================================================
 =Print Styles
 ----------------------------------------------------------------- */

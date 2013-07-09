@@ -18,8 +18,8 @@
 		float: left;
 		height: auto
 	}
-		.logo-coolsculpting .ir {
-		}
+		.home .logo-coolsculpting {padding-left: 11px;}
+		.logo-coolsculpting .ir {}
 	.logo-practice {
 		float: right;
 		background-color: transparent;
@@ -27,9 +27,7 @@
 		padding: 0;
 		position: static;
 	}
-		.logo-practice .ir {
-
-		}
+		.logo-practice .ir {}
 
 .show-nav {
 	display: none;
@@ -54,8 +52,6 @@
 	display: block;
 	background: none;
 	border-width: 1px 0;
-	height: 55px;
-
 	position: static;
     width: auto;
     right: 0;
@@ -64,11 +60,11 @@
     padding: 0;
 }
 	#global-nav ul {
-		padding-left: 228px;
-		overflow: hidden;
+		text-align: right;
 	}
 	#global-nav li {
-		float: left;
+		text-align: left;
+		display: inline-block;
 		padding: 0 23px;
 		font-size: 15px;
 		border: none;
@@ -86,7 +82,7 @@
 #hero {
     padding: 20px 0 0 20px;
     height: 344px;
-    width: 957px;
+    width: 960px;
     margin: 0 auto 35px;
 }
 	.hero-video {
@@ -344,6 +340,12 @@
 	margin-right: 12px;
 }
 
+.interior aside.onethird {
+position: static;
+left: 0;
+margin-top: 0;
+}
+
 /*==================================================================
 =Content Boxes
 ----------------------------------------------------------------- */
@@ -374,7 +376,6 @@
 }
 
 .ie7 .logo-coolsculpting .ir {
-	/*background: #f3f3f3 url(../images/sprite.png) no-repeat -9px -83px;*/
 	height: 44px;
 }
 
@@ -425,3 +426,5 @@
 
 			top: -100px;
 		}
+
+* {box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box;}

@@ -64,6 +64,17 @@
 				</form>
 			</div>
 		<aside class="onethird">
+
+			<div class="request content-box">
+				<h2>Request a CoolSculpting consultation</h2>
+				<p>Fill out and submit a consultation request today to learn how CoolSculpting and Skin Spectrum can transform your body—without surgery or downtime.</p>
+			</div>
+			
+			<div class="promo content-box">
+				<h2>Keep your beach body all year long</h2>
+				<a href="howitworks.php" class="btn btn-blue">More about CoolSculpting</a>
+			</div>
+
 			<div class="newsletter content-box clearfix">
 				<h2>Get the latest news from Dr. Gerrish &amp; CoolSculpting</h2>
 				<form id="newsletterForm" action="#" name="subscribeForm" method="post">
@@ -83,6 +94,7 @@
 					<button name="submit" type="submit" class="btn btn-blue">Sign Up</button>
 				</form>
 			</div>
+
 		</aside>
 			
 		</div><!-- .wrapper -->
