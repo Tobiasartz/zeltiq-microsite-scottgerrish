@@ -11,7 +11,7 @@
 					<li>(703) 255-5580</li>
 				</ul>
 
-				<a class="btn-directions" href="#" target="_blank">Get Directions</a>
+				<a class="btn-directions" href="https://www.google.com/maps?q=Gerrish+%26+Associates+MedSpa++Main+Office++112+Pleasant+St,+SW%09+Vienna,+VA+22180+&hl=en&sll=33.582591,-112.125092&sspn=0.955289,1.822357&hq=Gerrish+%26+Associates+MedSpa+Main+Office&hnear=112+Pleasant+St+SW,+Vienna,+Fairfax,+Virginia+22180&t=m&z=17" target="_blank">Get Directions</a>
 
 			</div>
 		</div>
@@ -24,9 +24,9 @@
 			</ul>
 
 			<div class="footer-copyright">
-				<a href="privacy.php">Terms &amp; Conditions</a><br/>
-				 Copyright &copy; 2013 ZELTIQ<br/>
-				All Rights Reserved<br/>
+				<a href="privacy.php">Privacy Policy</a><br/>
+				Copyright &copy; <?php echo date('Y'); ?> ZELTIQ Aesthetics, Inc.<br />
+				All Rights Reserved<br />
 			</div>
 		</div>
 	</footer>

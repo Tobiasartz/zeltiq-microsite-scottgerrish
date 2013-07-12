@@ -8,7 +8,7 @@
 
 ?>
             
-        <article class="wrapper clearfix content">
+        <div class="wrapper clearfix content">
             
             <h1>Error</h1>
 
@@ -37,7 +37,7 @@
                 echo 'Error: ('.$errorcode.') '.$strError; 
             ?>
             
-        </article><!-- .wrapper -->
+        </div><!-- .wrapper -->
     
 <?php 
     include('template/footer.php');

@@ -1,24 +1,22 @@
 <?php 
 
 	$title 			= "CoolSculpting - Before and After Photos";
-	$bodyClass		= "interior";
+	$bodyClass		= "interior gallery";
 	$description 	= "";
 
 	include('template/header.php');
 
 ?>
 
-		<article class="wrapper clearfix">
+		<div class="wrapper clearfix">
 			
 			<header>
 				<h1>Before and After Photos</h1>
 
 			</header>
 
-			<div class="onethird alpha content">
+			<div class="onethird">
 				<p>You work out and eat right, but you still don’t have the body you really want. Say goodbye to stubborn fat and hello to a new you with CoolSculpting, to most accurate and effective body contouring option. Your customized fat reduction treatment plan will help you get WOW results. </p>
-
-				<hr>
 
 				<?php include('template/email-signup.php'); ?>	
 			</div>
@@ -161,7 +159,8 @@
 
 
 			
-		</article><!-- .wrapper -->
+		</div><!-- .wrapper -->
+		<div class="background"></div>
 	
 <?php 
 	include('template/footer.php');

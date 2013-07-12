@@ -8,7 +8,7 @@
 
 ?>
 			
-		<article class="wrapper clearfix content">
+		<div class="wrapper clearfix content">
 			
 				
 			<div class="twothird alpha content">
@@ -23,7 +23,7 @@
 				?>
 			</div>
 			
-		</article><!-- .wrapper -->
+		</div><!-- .wrapper -->
 	
 <?php 
 	include('template/footer.php');

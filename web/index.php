@@ -44,10 +44,12 @@
 						</div>
 					</div>
 					<div class="ba-slider-text clearfix">
-						<div class="before"><p>Before <span>Treatment</span></p></div>
-						<div class="after"><p>8 Weeks After <a href="howitworks.php">CoolSculpting<sup>&reg;</sup> Treatment</a></p></div>
+						<div class="before"><p>Before</p></div>
+						<div class="after">
+							<p>8 Weeks After</p>
+							<p class="physician">Procedure by Leyda E. Bowes, MD</p>
+						</div>
 					</div>
-					<p class="physician">Procedure by Leyda E. Bowes, MD</p>
 				</div>
 				<div class="bio content-box clearfix">
 					<img src="assets/images/gerrish.png" alt="" />

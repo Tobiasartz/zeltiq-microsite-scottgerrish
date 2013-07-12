@@ -15,14 +15,14 @@
 	<link rel="stylesheet" href="assets/css/style.css?v=1">
 	<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
 	<!-- For progressively larger displays -->
-	<link rel="stylesheet" media="only screen and (min-width: 600px)" href="assets/css/600.css">
-	<link rel="stylesheet" media="only screen and (min-width: 960px)" href="assets/css/960.css">
+	<link rel="stylesheet" media="only screen and (min-width: 600px)" href="assets/css/600.css?v=3">
+	<link rel="stylesheet" media="only screen and (min-width: 960px)" href="assets/css/960.css?v=3">
 	<!-- Google Font -->
-	<link href='http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,400italic,700italic' rel='stylesheet' type='text/css'>
 	<script src="/assets/js/modernizr-2.5.0.min.js"></script>
 	<!--[if lt IE 9]>
-		<link rel="stylesheet" href="assets/css/600.css">
-		<link rel="stylesheet" href="assets/css/960.css">
+		<link rel="stylesheet" href="assets/css/600.css?v=3">
+		<link rel="stylesheet" href="assets/css/960.css?v=3">
 	<![endif]-->
 	<!--[if gte IE 9]>
 		<style type="text/css"> .gradient { filter: none; } </style>
@@ -35,15 +35,14 @@
 
 	  // ga('create', 'UA-42061301-1', 'coolsculptingtucson.com');
 	  // ga('send', 'pageview');
-
 	</script>
 	<script type='text/javascript'>
-	(function (d, t) {
-	  var bh = d.createElement(t), s = d.getElementsByTagName(t)[0];
-	  bh.type = 'text/javascript';
-	  bh.src = '//www.bugherd.com/sidebarv2.js?apikey=1dr00idh5kzpjpj3ioxw4g';
-	  s.parentNode.insertBefore(bh, s);
-	  })(document, 'script');
+		(function (d, t) {
+		var bh = d.createElement(t), s = d.getElementsByTagName(t)[0];
+		bh.type = 'text/javascript';
+		bh.src = '//www.bugherd.com/sidebarv2.js?apikey=fbey7asthm4epch3xccyjg';
+		s.parentNode.insertBefore(bh, s);
+		})(document, 'script');
 	</script>
 </head>
 
@@ -55,7 +54,8 @@
 				<div class="btn btn-grey show-nav">
 					<a href="#">Menu</a>
 				</div>
-				<h2 class="logo-practice clearfix"><span class="ir">Gerrish &amp; Associates</span></h2>
+				<!-- <h2 class="logo-practice clearfix"><span class="ir">Gerrish &amp; Associates</span></h2> -->
+				<div class="logo-practice clearfix"><h2 class="ir">Gerrish &amp; Associates</h2><p>703.255.5580</p></div>
 			</div>
 		</div>
 		<nav id="global-nav">

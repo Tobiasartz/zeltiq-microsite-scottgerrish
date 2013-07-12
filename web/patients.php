@@ -1,14 +1,14 @@
 <?php 
 
 	$title 			= "CoolSculpting - Hear From Real Patients";
-	$bodyClass		= "interior";
+	$bodyClass		= "interior patients";
 	$description 	= "";
 
 	include('template/header.php');
 
 ?>
 			
-		<article class="wrapper clearfix">
+		<div class="wrapper clearfix">
 			
 			<header>
 				<h1>Hear From Real Patients</h1>
@@ -17,7 +17,7 @@
 				</div>
 			</header>
 
-			<div class="onethird alpha content">
+			<div class="onethird">
 				<p>Real patients. Real results. These patients might have lost stubborn fat, but what you’ll instantly notice is the confidence they gained by <a href="gallery.php">getting their bodies back</a> with help from CoolSculpting.</p>		
 
 				<hr>
@@ -106,8 +106,8 @@
 				<?php include('template/aside-boxes.php'); ?>
 			</div>
 			
-		</article><!-- .wrapper -->
-	
+		</div><!-- .wrapper -->
+		<div class="background"></div>
 <?php 
 	include('template/footer.php');
 ?>

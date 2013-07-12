@@ -106,9 +106,9 @@ $('.show-nav').click( function (e) {
 
 window.onload = function () {
     
-	$('.howitworks').flexslider({
-    	directionNav: false
-    });
+	// $('.howitworks').flexslider({
+ //    	directionNav: false
+ //    });
 
     $('.ba-slideshow, .video-slideshow').flexslider({
     	directionNav: false,  
@@ -124,4 +124,18 @@ window.onload = function () {
 	$('.ba-slider, .ba-control').css('height', baHeight);
 	$('.ba-slider-before-image').css('width', '50%');
 	$('.ba-slider-before-image img').css('width', baWidth);
+
+	if ($('body').hasClass('patients') || $('body').hasClass('gallery') || $('body').hasClass('about')) { // Runs on gallery and patients pages
+		var vH = document.documentElement.clientHeight; // Gets viewportHeight
+		var bH = $('body').height(); // Gets height of body element
+		var p  = (vH - bH); // Calculate difference between viewport and body heights
+
+		if ( p > 0 ) { // If p is a positive number
+			$('#global-footer').css({'position' : 'relative', 'top' : p });
+			// console.log('Footer fixed.');
+		} else { // If p is negative number
+			// console.log('position val negative.')
+		};
+	};
+
 }
