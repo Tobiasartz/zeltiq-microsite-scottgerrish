@@ -359,23 +359,23 @@
 	margin-bottom: 20px;
 }
 .about {}
-    .about h2 {
+    .about h2, .about h2 {
         margin: 0px;
     }
-    .about .threethird > p {
+    .about .threethird > p, .patients .threethird > p {
         margin: 1em 0;
     }
-    .about .threethird img {
+    .about .threethird img, .patients .threethird img {
         max-width: 360px;
         float: right;
         margin: 0 0 11px 11px;
     }
-    .about .threethird aside {
+    .about .threethird aside, .patients .threethird aside {
         max-width: 33%;
         float: left;
         padding: 11px 11px 11px 0 !important;
     }
-    .about .threethird:last-child {
+    .about .threethird:last-child, .patients .threethird:last-child {
         margin-top: 40px;
     }
     .threethird aside h2, .threethird aside p {
@@ -383,10 +383,10 @@
     }
         .threethird aside p { padding-top: 4px; }
         .threethird aside p.footnote {height: auto;}
-    .about #newsletterForm {
+    .about #newsletterForm, .patients #newsletterForm {
         margin: 0;
     }
-    .about #newsletterEmail {
+    .about #newsletterEmail, .patients #newsletterEmail {
         max-width: 150px;
     }
 
@@ -412,7 +412,9 @@
 	.interior .twothird .promo:last-child {
 		padding-left: 40px;
 	}
-
+.patients .flexslider {
+	float: right;
+}
 .howitworks .background {
 	height: 66%;
 	top: 380px;

@@ -12,32 +12,13 @@
 			
 			<header>
 				<h1>Hear From Real Patients</h1>
-				<div class="social-links">
-					
-				</div>
+
 			</header>
 
-			<div class="onethird">
-				<p>Real patients. Real results. These patients might have lost stubborn fat, but what you’ll instantly notice is the confidence they gained by <a href="gallery.php">getting their bodies back</a> with help from CoolSculpting.</p>		
-
-				<hr>
-
-				<?php include('template/email-signup.php'); ?>	
-			</div>
-
-			<div class="twothird">
-				<!--
-				By use of this code snippet, I agree to the Brightcove Publisher T and C 
-				found at https://accounts.brightcove.com/en/terms-and-conditions/. 
-				-->
+			<div class="threethird clearfix">
 
 				<script language="JavaScript" type="text/javascript" src="http://admin.brightcove.com/js/BrightcoveExperiences.js"></script>
 
-				<!-- 
-				This script tag will cause the Brightcove Players defined above it to be created as soon
-				as the line is read by the browser. If you wish to have the player instantiated only after
-				the rest of the HTML is processed and the page load is complete, remove the line.
-				-->
 				<script type="text/javascript">brightcove.createExperiences();</script>
 
 				<!-- End of Brightcove Player -->
@@ -101,11 +82,18 @@
 							</object>
 					    </li>
 					</ul>
-				</div>
+				</div><!--/.flexslider -->
 
+				<p>Real patients. Real results. These patients might have lost stubborn fat, but what you’ll instantly notice is the confidence they gained by <a href="gallery.php">getting their bodies back</a> with help from CoolSculpting.</p>		
+
+				
+			</div>
+
+			<div class="threethird clearfix">
+				<aside><?php include('template/email-signup.php'); ?></aside>
 				<?php include('template/aside-boxes.php'); ?>
 			</div>
-			
+
 		</div><!-- .wrapper -->
 		<div class="background"></div>
 <?php 
