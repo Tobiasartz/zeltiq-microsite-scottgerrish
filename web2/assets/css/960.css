@@ -1,5 +1,9 @@
+h1 {
+	font-size: 54px;
+}
+
 #global-header,#main,#global-footer {
-	position: static;
+	position: relative;
 }
 
 .wrapper {
@@ -9,6 +13,10 @@
 
 #global-branding {
 	height: 80px;
+}
+
+#global-branding .wrapper {
+	padding: 0px 20px;
 }
 
 .logo-coolsculpting {
@@ -109,10 +117,10 @@
 	text-transform: uppercase;
 }
 
-#hero {
-	height: 344px;
+#hero > .inner{
 	width: 960px;
 	margin: auto;
+	padding: 0px 0px 35px 0px;
 }
 
 .hero-video {
@@ -139,7 +147,7 @@
 .hero-text h2 {
 	margin: 15px 30px 0 21px;
 	line-height: 1em;
-	font-size: 3.44em;
+	font-size: 54px;
 }
 
 .hero-text h3 {
@@ -300,8 +308,8 @@
 	top: 100px;
 }
 
-.interior #main .wrapper {
-	
+.consultation #main > .wrapper {
+	padding: 0px 10px;
 }
 
 .about #main {
@@ -309,7 +317,11 @@
 }
 
 #global-footer {
-	padding-top: 17px;
+	padding-top: 35px;
+}
+
+#global-footer .wrapper {
+	padding: 0px 10px;
 }
 
 #global-footer:after {
@@ -326,7 +338,6 @@
 
 .social-icons {
 	float: left;
-	margin: 0;
 	width: auto;
 }
 
@@ -382,7 +393,7 @@
 
 #global-footer .wrapper:last-child {
 	background: none;
-	padding: 15px 0 20px;
+	padding: 15px 10px;
 }
 
 .checksplit {
@@ -419,17 +430,22 @@
 
 .interior .onethird {
 	width: 310px;
+	padding: 0px 0px 0px 10px;
+}
+
+.consultation.interior .twothird {
+	width: 600px;
+	padding: 0px 10px 0px 0px;
+}
+
+.consultation .onethird {
+	float:right;
 }
 
 .interior .twothird {
 	width: 640px;
 	padding: 0 10px;
 	margin-right: 10px;
-}
-
-.gallery .twothird {
-	margin: 0;
-	float: right;
 }
 
 .interior .alpha {
@@ -464,6 +480,7 @@
 
 .about .threethird>p,.patients .threethird>p {
 	margin: 1em 0;
+	font-size: 20px;
 }
 
 .about .threethird img,.patients .threethird img {
@@ -516,19 +533,9 @@
 	
 }
 
-.patients #main .wrapper {
-	padding: 0;
-}
-
 .patients .background {
 	height: 70%;
 	top: 180px;
-}
-
-.patients .twothird,.gallery .twothird {
-	padding: 0;
-	margin: 0;
-	padding-left: 40px;
 }
 
 .interior .twothird .promo {
@@ -541,7 +548,6 @@
 }
 
 .patients .flexslider {
-	float: right;
 }
 
 .howitworks .background {

@@ -307,13 +307,14 @@ h1,h2,h3,h4,p {
 }
 
 h1 {
-	color: #177AC5;
+	color: #4896b3;
+	font-weight: 300;
+	font-size: 48px;
 }
 
 h2 {
 	margin-top: 20px;
-	margin-left: 36px;
-	color: #199acb;
+	color: #4896b3;
 	font-weight: 300;
 	font-size: 1.75em;
 }
@@ -353,7 +354,8 @@ a:hover {
 =Primary Styles
 ----------------------------------------------------------------- */
 body {
-	background: #fff url(../images/gplaypattern-blue.jpg);
+	/*background: #fff url(../images/gplaypattern-blue.jpg);*/
+	background-color: #fff;
 }
 
 img {
@@ -502,7 +504,13 @@ hr {
 }
 
 #hero {
-	
+	background-image: -moz-linear-gradient(top,  rgba(255,255,255,1) 0%, rgba(255,255,255,0) 15%, rgba(255,255,255,0) 85%, rgba(255,255,255,1) 100%), url(../images/gplaypattern-blue.jpg);
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,1)), color-stop(15%,rgba(255,255,255,0)), color-stop(85%,rgba(255,255,255,0)), color-stop(100%,rgba(255,255,255,1))), url(../images/gplaypattern-blue.jpg);
+	background-image: -webkit-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(255,255,255,0) 15%,rgba(255,255,255,0) 85%,rgba(255,255,255,1) 100%), url(../images/gplaypattern-blue.jpg);
+	background-image: -o-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(255,255,255,0) 15%,rgba(255,255,255,0) 85%,rgba(255,255,255,1) 100%), url(../images/gplaypattern-blue.jpg);
+	background-image: -ms-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(255,255,255,0) 15%,rgba(255,255,255,0) 85%,rgba(255,255,255,1) 100%), url(../images/gplaypattern-blue.jpg);
+	background-image: linear-gradient(to bottom,  rgba(255,255,255,1) 0%,rgba(255,255,255,0) 15%,rgba(255,255,255,0) 85%,rgba(255,255,255,1) 100%), url(../images/gplaypattern-blue.jpg);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff',GradientType=0 );
 }
 
 .hero-text {
@@ -672,6 +680,7 @@ a.view-all:hover {
 
 .interior .ba-slider-text div {
 	width: 50%;
+	padding: 10px 10px 0px 10px;
 }
 
 .interior .ba-slider-text .after img {
@@ -679,6 +688,7 @@ a.view-all:hover {
 	display: inline;
 }
 
+.content-box p.physician,
 .physician {
 	color: #c0c0c0;
 	font-size: 0.875em;
@@ -778,6 +788,13 @@ a.view-all:hover {
 	font-size: 14px;
 	text-align: center;
 	padding-top: 44px;
+	background: -moz-linear-gradient(top,  rgba(255,255,255,1) 0%, rgba(255,255,255,0) 15%, rgba(255,255,255,0) 100%), url(../images/gplaypattern-blue.jpg);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,1)), color-stop(15%,rgba(255,255,255,0)), color-stop(100%,rgba(255,255,255,0))), url(../images/gplaypattern-blue.jpg);
+	background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(255,255,255,0) 15%,rgba(255,255,255,0) 100%), url(../images/gplaypattern-blue.jpg);
+	background: -o-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(255,255,255,0) 15%,rgba(255,255,255,0) 100%), url(../images/gplaypattern-blue.jpg);
+	background: -ms-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(255,255,255,0) 15%,rgba(255,255,255,0) 100%), url(../images/gplaypattern-blue.jpg);
+	background: linear-gradient(to bottom,  rgba(255,255,255,1) 0%,rgba(255,255,255,0) 15%,rgba(255,255,255,0) 100%), url(../images/gplaypattern-blue.jpg);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#00ffffff',GradientType=0 );
 }
 
 .social-icons {
@@ -852,6 +869,7 @@ article {
 
 .content-box h2 {
 	margin: 0;
+	color:#199acb;
 }
 
 .content-box h3 {
@@ -859,6 +877,7 @@ article {
 	font-weight: 300;
 	font-size: 25px;
 	line-height: 28px;
+	padding: 0px 0px 20px 0px;
 }
 
 .onethird .onehalf {
@@ -866,11 +885,24 @@ article {
 	margin-right: 0;
 }
 
+.onethird .content-box p {
+	font-size: 16px;
+}
+
+.onethird .content-box p.disclaimer {
+	font-size: 12px;
+}
+
+
 /*==================================================================
 =Forms
 ----------------------------------------------------------------- */
 #consultForm {
-	
+	max-width: 560px;
+}
+
+#consultForm ul li {
+	padding: 0px 0px 10px 0px;
 }
 
 #consultForm li span {
@@ -897,6 +929,8 @@ article {
 #consultForm [class^="checks"] label {
 	/*If className begins with "checks", this matches */
 	color: #666;
+	padding: 4px 0px 0px 0px;
+	font-size: 18px;
 }
 
 .checksplit input,.checksingle input {
@@ -906,7 +940,7 @@ article {
 #consultForm label {
 	color: #199acb;
 	font-weight: 300;
-	font-size: 1.5em;
+	font-size: 24px;
 	box-shadow: border-box;
 }
 
@@ -1057,12 +1091,20 @@ aside.schedule.content-box p {
 	
 }
 
+.twothird p {
+	margin: 0px 0px 10px 0px;
+}
+
 .consultation .twothird {
 	padding: 0 22px;
 }
 
 .consultation .logo-coolsculpting {
 	background: transparent;
+}
+
+.home #main > .wrapper {
+	padding: 0px 10px;
 }
 
 .consultation #main .wrapper,.consultation #global-header {
@@ -1079,20 +1121,12 @@ aside.schedule.content-box p {
 		to(rgba(255, 255, 255, 0) ) ) !important;
 }
 
-.consultation .wrapper h1 {
-	color: #528295;
-	font-weight: 300;
-	font-size: 3em;
-	line-height: 1.25em;
-}
-
 aside .content-box {
 	background: url(/assets/images/content-box.png) no-repeat;
 	padding: 3px 0px 20px 14px;
 }
 
 .interior aside.onethird {
-	padding-top: 45px;
 	background: #fff;
 }
 
@@ -1108,7 +1142,7 @@ aside .content-box {
 	font-size: 35px;
 }
 
-.howitworks .alpha>.content-box p {
+.content-box p {
 	font-size: 20px;
 	font-weight: 300;
 }
@@ -1145,12 +1179,13 @@ aside .content-box {
 		endColorstr='#ffffff', GradientType=1 );
 }
 
-.about #main {
-	padding: 22px;
-}
-
 .about h2 {
 	margin: 0px;
+}
+
+.about .gerrish {
+	width: 100%;	
+	max-width: 610px;
 }
 
 .about .threethird>p {
@@ -1299,7 +1334,7 @@ a.btn-grey,.btn-grey a {
 	background-position: -128px -53px;
 }
 
-.icon-gplus {
+.icon-youtube {
 	background-position: -163px -53px;
 }
 /*==================================================================
@@ -1420,7 +1455,8 @@ a.btn-grey,.btn-grey a {
 	-webkit-backface-visibility: hidden;
 } /* Hide the slides before the JS is loaded. Avoids image jumping */
 .slides object {
-	max-width: 100%;
+	width: 100%;
+	height: 340px;
 }
 
 .flexslider .slides img {

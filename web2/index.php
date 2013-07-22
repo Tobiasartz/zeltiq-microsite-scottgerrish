@@ -1,35 +1,37 @@
 <?php 
 
-	$title 			= "CoolSculpting - Home";
+	$title 			= "CoolSculpting Cellulite Treatment in Vienna, Virginia - Garrish &amp; Associates MedSpa";
 	$bodyClass		= "home";
-	$description 	= "";
+	$description 	= "CoolSculpting is an innovative cellulite treatment solution provided by Dr. Scott Garrish in Vienna, Virginia. Schedule a consultation today to find out if CoolSculpting is right for you.";
 
 	include('template/header.php');
 
 ?>
 
 		<section id="hero" class="clearfix">
-			<div class="hero-video">
-				<div class="inner">
-					<div id="wistia_7tetgpextz" class="wistia_embed" style="width:620px;height:300px;" data-video-width="620" data-video-height="300">&nbsp;</div>
-					<script charset="ISO-8859-1" src="http://fast.wistia.com/static/concat/E-v1.js"></script>
-					<script>
-					wistiaEmbed = Wistia.embed("7tetgpextz", {
-					  version: "v1",
-					  videoWidth: 620,
-					  videoHeight: 300,
-					  playerColor: "22a1db",
-					  endVideoBehavior: "reset",
-					  videoFoam: true
-					});
-					</script>
+			<div class="inner clearfix">
+				<div class="hero-video">
+					<div class="inner">
+						<div id="wistia_7tetgpextz" class="wistia_embed" style="width:620px;height:300px;" data-video-width="620" data-video-height="300">&nbsp;</div>
+						<script charset="ISO-8859-1" src="http://fast.wistia.com/static/concat/E-v1.js"></script>
+						<script>
+						wistiaEmbed = Wistia.embed("7tetgpextz", {
+						  version: "v1",
+						  videoWidth: 620,
+						  videoHeight: 300,
+						  playerColor: "22a1db",
+						  endVideoBehavior: "reset",
+						  videoFoam: true
+						});
+						</script>
+					</div>
 				</div>
-			</div>
-			
-			<div class="hero-text">
-				<h2>Sculpt Your Body</h2>
-				<h3>Transform yourself with CoolSculpting.</h3>
-				<a class="btn btn-grey" href="consultation.php">Schedule a Consultation</a>
+				
+				<div class="hero-text">
+					<h2>Contour Your Body</h2>
+					<h3>Reduce Unwanted Fat with CoolSculpting</h3>
+					<a class="btn btn-grey" href="consultation.php">Schedule a Consultation</a>
+				</div>
 			</div>
 		</section>
 		<div class="background">&nbsp;</div>	
@@ -64,9 +66,9 @@
 
 				<div class="newsletter content-box clearfix">
 					<h2>Get the latest news from Dr. Gerrish &amp; CoolSculpting</h2>
-					<form id="newsletterForm" action="#" name="subscribeForm" method="post">
-						<input type="hidden" name="thx" value="/thankemail.php" />
-						<input type="hidden" name="err" value="/error.php" />
+					<form id="newsletterForm" action="http://cl.exct.net/subscribe.aspx?lid=3912734" name="subscribeForm" method="post">
+						<input type="hidden" name="thx" value="http://scottgerrish.coolsculpting.com.php53-8.ord1-1.websitetestlink.com/thankemail.php" />
+						<input type="hidden" name="err" value="http://scottgerrish.coolsculpting.com.php53-8.ord1-1.websitetestlink.com/error.php" />
 						<input type="hidden" name="MID" value="10683065" />
 
 						<input type="hidden" name="First Name" value="First" />
@@ -90,8 +92,7 @@
 				<div class="facebook-like content-box clearfix">
 					
 					<!-- This facebook link does NOT belong to Dr Gerrish. Replace this with correct link before production -->						
-					<iframe src="//www.facebook.com/plugins/like.php?href=http%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Freference%2Fplugins%2Flike&amp;send=false&amp;layout=box_count&amp;width=50&amp;show_faces=true&amp;font&amp;colorscheme=light&amp;action=like&amp;height=65&amp;appId=477875022298272" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:50px; height:65px;" allowTransparency="true"></iframe>
-
+					<div class="fb-like" style="float:left;" data-href="http://facebook.com/coolsculpting" data-send="true" data-layout="box_count" data-width="450" data-show-faces="false"></div>
 					<h2>Like CoolSculpting on Facebook.</h2>
 
 				</div>
